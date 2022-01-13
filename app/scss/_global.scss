@@ -1,8 +1,10 @@
 body {
-    background-color: #fff;
-    color: #121212;
+    background-color: $white;
+    color: $dark-900;
+    @extend %OpenSans-400;
     font-size: 14px;
     line-height: 1.4;
+    font-weight: 400;
 
 }
 

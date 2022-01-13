@@ -12,22 +12,50 @@
     &__info-inner {
         display: flex;
         justify-content: space-between;
+
     }
 
-    .info__list-delivery,
-    .info__list-about {
+    &__info-list {
         display: flex;
+    }
 
+    &__info-link--padding {
+        padding-left: 45px;
 
     }
 
-    .info__item:not(:last-child) {
+
+    &__info-item:not(:last-child) {
         margin-right: 24px;
 
     }
 
-    .info__link {
-        color: rgb(248, 248, 248);
+    &__info-link {
+        position: relative;
+        color: $white;
+        @extend %OpenSans-700;
+        font-size: 13px;
+
+        &__info-link--icon-phone::before {
+            content: "";
+            position: absolute;
+            height: 32px;
+            height: 22px;
+            background-image: url(../images/icons/icon-tel.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        &__info-link--icon-delivery::before {
+            content: "";
+            position: absolute;
+            height: 32px;
+            height: 22px;
+            background-image: url(../images/icons/icon-address.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
     }
+
 
 }

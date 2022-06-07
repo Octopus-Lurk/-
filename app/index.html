@@ -17,21 +17,21 @@
             <div class="container">
                 <div class="header__info-inner">
                     <ul class="header__info-list">
-                        <li class="header__info-item ">
-                            <a class="header__info-link header__info-link--padding header__info-link--icon-delivery" href="#">Адрес и время доставки</a>
+                        <li class="header__info-item header__info-item--icon-delivery">
+                            <a class="header__info-link" href="#">Адрес и время доставки</a>
                         </li>
-                        <li class="header__info-item ">
-                            <a class="header__info-link header__info-link--padding header__info-link--icon-phone" href="#">Горячая линия 24/7</a>
+                        <li class="header__info-item header__info-item--icon-phone">
+                            <a class="header__info-link" href="#">Горячая линия 24/7</a>
                         </li>
                     </ul>
-                    <ul class="header__info-list">
-                        <li class="header__info-item">
+                    <ul class="header__info--list">
+                        <li class="header__info--item">
                             <a class="header__info-link" href="#">Доставка</a>
                         </li>
-                        <li class="header__info-item">
+                        <li class="header__info--item">
                             <a class="header__info-link" href="#">О нас</a>
                         </li>
-                        <li class="header__info-item">
+                        <li class="header__info--item">
                             <a class="header__info-link" href="#">Новости</a>
                         </li>
                     </ul>
@@ -40,10 +40,10 @@
         </div>
         <div class="header__bottom">
             <div class="container">
-                <a class="logo" href="#">
-                    <img class="logo__img" src="images/logo.svg" alt="логотип магазина" width="200" height="60">
-                </a>
-                <div class="header__catalog">
+                <div class="header__bottom-inner">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="images/logo.svg" alt="логотип магазина" width="200" height="60">
+                    </a>
                     <button class="catalog__btn" type="button">Каталог продуктов</button>
                     <ul class="catalog__list">
                         <li class="catalog__item">
@@ -83,86 +83,38 @@
                             <a class="catalog__link" href="#">Чай, кофе</a>
                         </li>
                     </ul>
-                </div>
-                <form action="#" class="form">
-                    <div class="form__inner">
-                        <label class="form__label"></label>
-                        <input class="form__input" type="text" placeholder="Найти в магазине ..." required>
-                        <button class="form__btn" type="button">Поиск</button>
+                    <form action="#" class="form">
+                        <div class="form__inner">
+                            <label class="form__label"></label>
+                            <input class="form__input" type="text" placeholder="Найти в магазине ..." required>
+                            <button class="form__btn" type="button">Поиск</button>
+                        </div>
+                    </form>
+                    <div class="user-nav">
+                        <a class="user-nav__link" href="#">
+                            <img class="user-nav__img" src="images/icons/user-icon.svg" alt="иконка пользователя">
+                        </a>
+                        <a class="user-nav__link" href="#">
+                            <img class="user-nav__img" src="images/icons/heart-icon.svg" alt="иконка понравившиеся">
+                            <span class="user-nav__num">12</span>
+                        </a>
+                        <a class="user-nav__link" href="#">
+                            <img class="user-nav__img" src="images/icons/icon-cart.svg" alt="иконка корзины">
+                            <span class="user-nav__num">12</span>
+                        </a>
                     </div>
-                </form>
-                <div class="user-nav">
-                    <a class="user-nav__link" href="#"></a>
-                    <a class="user-nav__link" href="#">
-                        <span class="user-nav__num">12</span>
-                    </a>
-                    <a class="user-nav__link" href="#">
-                        <span class="user-nav__num">12</span>
-                    </a>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="slider">
-        <div class="container">
-            <div class="slider__item">
-                <div class="slider__info">
-                    <div class="slider__title">
-                        <p>Свежачок вам в хату <span>скидка -50%</span></p>
-                    </div>
-                    <div class="slider__subtitle">
-                        <p>Только с 7 по 13 июля скидка на сезонные фрукты и овощи до 50%. Торопитесь!</p>
-                    </div>
-                    <a class="slider__link" href="#">Купить сейчас</a>
-                </div>
-            </div>
-            <div class="slider__item">
-                <div class="slider__info">
-                    <div class="slider__title">
-                        <p>Накрути себе томатов <span>Акция: 3 кг по цене 1</span></p>
-                    </div>
-                    <div class="slider__subtitle">
-                        <p>Только с 12 по 15 июля скидка на домашние помидорчики</p>
-                    </div>
-                    <a class="slider__link" href="#">Купить сейчас</a>
-                </div>
-            </div>
-            <div class="slider__item">
-                <div class="slider__info">
-                    <div class="slider__title">
-                        <p>Пусть остальные позеленеют от зависть <span>распродажа зелени</span></p>
-                    </div>
-                    <a class="lider__link" href="#">Купить сейчас</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="advantage">
-        <div class="container">
-            <div class="advantage__inner">
-                <div class="advantage__item">
-                    <h3 class="advantage__title">Бесплатная доставка</h3>
-                    <div class="advantage__subtitle">
-                        <p>Для заказов на сумму от 500 ₽</p>
-                    </div>
-                </div>
-                <div class="advantage__item">
-                    <h3 class="advantage__title">Возврат товара</h3>
-                    <div class="advantage__subtitle">
-                        <p>Если товары были испорчены</p>
-                    </div>
-                </div>
-                <div class="advantage__item">
-                    <h3 class="advantage__title">Поддержка 24/7</h3>
-                    <div class="advantage__subtitle">
-                        <p>Лучшие операторы</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
+
+
+
+    
 
 
 
@@ -175,6 +127,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 

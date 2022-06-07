@@ -103,7 +103,7 @@
 
 
     &__list {
-        
+        display: none;
     }
 
 }
@@ -176,4 +176,80 @@
     }
 }
 
+.footer {
+    background-color: $dark-800;
+    color: $white;
+    padding: 36px 0;
+}
 
+.footer__logo {
+    margin-bottom: 36px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+    &__list-item {
+        margin-bottom: 18px;
+    }
+
+    &__text {
+        margin-bottom: 18px;
+        color: $white;
+    }
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+
+    &__input {
+        width: 180px;
+        height: 40px;
+        border-radius: 6px 0px 0px 6px;
+        border: none;
+    }
+
+    &__input::placeholder {
+        padding: 12px 12px;
+        color: $dark-800;
+    }
+
+    &__btn {
+        width: 126px;
+        height: 40px;
+        background-color: $green-900;
+        color: $white;
+        border-radius: 0px 6px 6px 0px;
+        @extend %OpenSans-700;
+
+    }
+}
+
+.footer-top__social-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgb(255, 255, 255, 0.1);
+    padding: 30px 0;
+
+
+}
+
+.footer-bottom__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom__list {
+    display: flex;
+}
+
+.footer-bottom__item:not(:last-child) {
+    margin-right: 24px;
+}

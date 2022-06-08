@@ -1,6 +1,7 @@
 @import 'vars';
 @import 'fonts';
 @import 'reset';
+@import 'libs';
 @import 'global';
 
 .header {
@@ -175,6 +176,174 @@
         line-height: 18px;
     }
 }
+
+.top-slider__content{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.top-slider__title{
+    font-size: 60px;
+    line-height: 1.3;
+    color: $dark-500;
+    max-width: 780px;
+    margin-bottom: 12px;
+    
+    
+}
+span{
+    color: $red-900;
+}
+
+.top-slider__text{
+    font-size: 16px;
+    line-height: 1.3;
+    color: $dark-500;
+    margin-bottom: 32px;
+}
+
+.top-slider__link{
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: $green-900;
+    border-radius: 6px;
+    color: $white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     background-color: $dark-800;

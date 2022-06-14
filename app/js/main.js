@@ -1,11 +1,6 @@
-$ (function() {
-
-
-    $('.top-slider__inner').slick({
-        arrows: false,
-        dots:false,
-    });
-
-
-
+new Swiper('.swiper', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
 });

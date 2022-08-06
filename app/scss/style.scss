@@ -177,7 +177,7 @@
     }
 }
  
-.swiper {
+.swiper-top{
     max-width: 100%;
     height: 100vh;
   }
@@ -694,8 +694,6 @@
 }
 
 
-
-
 .news{
     margin-bottom: 72px;
 }
@@ -727,7 +725,7 @@
     }
 }
 
-.news-blog-inner{
+.news-blog__inner{
     display: flex;
     justify-content: space-between;
 }
@@ -745,191 +743,11 @@
 }
 
 .blog-text{
-    max-width: 374px;
+    padding: 0 18px 0 18px;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
 }
-
-
-.blog-month__inner{
-    width: 65px;
-    height: 75px;
-    background-color: $white;
-    border-radius: 0px 0px 4px 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.blog-month{
-    font-size: 10px;
-    font-weight: 700;
-}
-
-.blog-numb{
-    font-size: 10px;
-    font-weight: 700;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer {
     background-color: $dark-800;

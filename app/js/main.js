@@ -1,3 +1,4 @@
-new Swiper('.swiper', {
+new Swiper('.swiper-top', {
     loop: true,
 });
+
